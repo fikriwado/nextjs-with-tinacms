@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { PageQuery, PageQueryVariables } from "../../tina/__generated__/types";
 import { useTina } from "tinacms/dist/react";
+import { PageQuery, PageQueryVariables } from "../../tina/__generated__/types";
 
 const HomePage = (props: {
   data: PageQuery;
